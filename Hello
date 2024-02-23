@@ -1,0 +1,12 @@
+def say_hello(name):
+    """
+    Prints a hello message with the given name.
+    
+    Args:
+        name (str): The name to greet.
+    """
+    print(f"Hello, {name}!")
+
+if __name__ == "__main__":
+    name = input("Enter your name: ")
+    say_hello(name)
